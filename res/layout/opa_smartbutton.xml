@@ -29,10 +29,11 @@
     </RelativeLayout>
 
     <com.android.systemui.navigation.smartbar.SmartButtonView
-        android:layout_gravity="center"
         android:id="@+id/smartbutton"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="center" />
+        android:scaleType="fitCenter" />
 
 </com.android.systemui.navigation.OpaLayout>
